@@ -143,7 +143,6 @@ ul{
 	blinkTextCursor 500ms steps(40) infinite normal;
 }
 
-
 @keyframes blinkTextCursor{
 	from{
 
