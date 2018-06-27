@@ -79,7 +79,8 @@ li a{
 }
 
 .jb h1{
-    color: white;
+  
+	 color: #ffd1dc;
 	font-size: 80px;
 	letter-spacing: 2px;
 	font-weight: 50;
@@ -88,7 +89,7 @@ li a{
 }
 
 .jb h5{
-    color: #ffd1dc;
+     color: white;
 	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
 
