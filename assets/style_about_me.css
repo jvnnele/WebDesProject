@@ -1,0 +1,151 @@
+ body{
+	margin: 0;
+	padding: 0;
+
+	background: url(marble_bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+.container{
+	position: absolute;
+	top: 35%;
+	left: 51%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-family: Century Gothic;
+	font-weight: 50;
+	font-size: 25px;
+	padding: 0 20px;
+}
+
+.link-effect::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width .3s;s
+}
+
+.link-effect:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+
+.banner{
+	width: 450px;
+	height: 0;
+
+	margin: auto;
+	
+}
+
+.jb{
+	width: 450px;
+	background: rgba(0, 0 ,0,0.1);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 38%;
+	margin-bottom: 5%;
+	color: #ffd1dc;
+}
+
+
+
+.jb-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+
+.jb-img2{
+	position: center;
+	width: 400px;
+}
+
+.jb h1{
+    color: white;
+	font-size: 100px;
+	letter-spacing: 2px;
+	font-weight: 50;
+	font-family: 'Mind Rush - Demo'; 
+}
+
+.jb h5{
+    color: white;
+	font-size: 25px;
+	font-family: 'Century Gothic';
+	font-weight: 100;
+}
+
+.jb p{
+    color: white;
+	font-size: 17px;
+	text-align: justify;
+	font-family: 'Century Gothic';
+}
+
+.jb a{
+	text-decoration: none;
+	color: #ffd1dc;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Century Gothic';
+	
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.jb li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.line{
+	position: relative;
+	top: 50%;
+    
+	width: 16em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255, 255, 255, 0.75);
+	font-size: 180%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;transform: translateY(-50%);
+}
+
+.type-effect{
+    
+	animation: typewriter 4s steps(40) 1s 1 normal both, 
+	blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+
+@keyframes blinkTextCursor{
+	from{
+
+			border-right-color: rgba(255, 255, 255);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
